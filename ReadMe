@@ -1,0 +1,11 @@
+Create new project with all necessary dependencies and we will use the following website
+https://www.saucedemo.com/
+
+Your task will be to create one End-to-End test using the POM. The flow should be as follows:
+
+1. Log in to the page with credentials standard_user/secret_sauce.
+2. Add products to the cart.
+3. Navigate to the cart and click the checkout button.
+4.Enter Checkout information(First name, Last Name, ZIP) and click continue.
+5. Click on Finish Button.
+6. Assert that the “Thank you for your order” text is displayed.
